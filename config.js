@@ -1,9 +1,7 @@
 const fs = require("fs")
 const chalk = require("chalk")
 
-global.reloadFile = (file, options = {}) => {
-    nocache(file, module => console.log(`File "${file}" has updated`))
-}
+
 
 // Rest Api
 global.APIs = {
@@ -12,7 +10,7 @@ global.APIs = {
 
 // Apikey
 global.APIKeys = {
-	'https://zenzapis.xyz': 'YOURAPIKEY',
+	'https://zenzapis.xyz': 'd6295ca53e',
 }
 
 // Other
@@ -23,7 +21,7 @@ global.options = {
 }
 
 global.prefa = /^[zZ#$+.?_&<>!/\\]/
-global.owner = ["62812XXX"]
+global.owner = ["918129624395"]
 global.sessionName = {
     legacy: "/tmp/killua-legacy",
     multi: "/tmp/killua-multi"
